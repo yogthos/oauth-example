@@ -8,7 +8,15 @@
 
   <div class="row">
     <div class="span12">
-    {{docs|markdown}}
+      <a href="/oauth/twitter-init">Sign in with Twitter</a>
+      <h2>
+        {% if denied %}
+          Failed to sign in!
+      {% else %}
+          Welcome! {{user}}
+      {% endif %}
+      </h2>
+
     </div>
   </div>
 {% endblock %}
