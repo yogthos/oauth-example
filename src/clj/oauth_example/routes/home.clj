@@ -3,7 +3,7 @@
             [compojure.core :refer [defroutes GET]]
             [ring.util.http-response :refer [ok found]]
             [clojure.java.io :as io]
-            [oauth-example.routes.twitter-oauth :as tw]
+            [oauth-example.twitter-oauth :as tw]
             [clojure.tools.logging :as log]))
 
 (defn home-page [opts]

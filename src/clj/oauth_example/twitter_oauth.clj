@@ -1,4 +1,4 @@
-(ns oauth-example.routes.twitter-oauth
+(ns oauth-example.twitter-oauth
   (:require [oauth.client :as oauth]
             [config.core :refer [env]]
             [clojure.tools.logging :as log]))
